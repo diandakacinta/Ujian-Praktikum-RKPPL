@@ -1,5 +1,6 @@
 package org.ifunpas.rkppl;
 
+import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
 
@@ -13,4 +14,10 @@ public class TestingRKPPL {
 		soal = new Soal();
 	}
 
+	@Test
+	public void test1(){
+		//test function pangkat dengan bilangan 2 pangkat 2
+		assertEquals("Harusnya ", 4, soal.pangkat(2, 2));
+		assertSame("Harusnya ", 4, soal.pangkat(2, 2));
+	}
 }
