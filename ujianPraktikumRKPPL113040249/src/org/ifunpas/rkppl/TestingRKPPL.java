@@ -27,4 +27,11 @@ public class TestingRKPPL {
 		assertEquals("Harusnya ", 2, soal.faktorial(2));
 		assertSame("Harusnya ", 2, soal.faktorial(2));
 	}
+	
+	@Test
+	public void test3(){
+		//test function perkalian dengan bilangan 2 kali 3
+		assertEquals("Harusnya ", 6, soal.perkalian(2, 3));
+		assertSame("Harusnya ", 6, soal.perkalian(2, 3));
+	}
 }
