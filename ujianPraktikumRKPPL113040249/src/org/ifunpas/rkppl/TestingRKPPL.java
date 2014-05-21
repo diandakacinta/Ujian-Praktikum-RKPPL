@@ -20,4 +20,11 @@ public class TestingRKPPL {
 		assertEquals("Harusnya ", 4, soal.pangkat(2, 2));
 		assertSame("Harusnya ", 4, soal.pangkat(2, 2));
 	}
+	
+	@Test
+	public void test2(){
+		//test function faktorial dengan bilangan 2
+		assertEquals("Harusnya ", 2, soal.faktorial(2));
+		assertSame("Harusnya ", 2, soal.faktorial(2));
+	}
 }
